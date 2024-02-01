@@ -1,0 +1,30 @@
+--INSTALLATION--
+# Install Laravel
+  Use "composer create-project laravel/laravel 'folder name' "
+
+# Run Laravel Server
+  Use "php artisan serve"
+
+--DATABASE-- *Migrations*
+
+# Create Laravel Tables
+  Always use a format of "create_'name of your table'_table" on naming convention
+  Example: "create_products_table" - Starts with "create" and ends with "table" and underscore in between
+  Use "php artisan make:migration 'new table name'"
+
+# Migrate Laravel Default Tables
+  use "php artisan migrate" New and Default tables
+
+--DATABASE-- *Models*
+
+# Create Laravel Models
+  Always use the naming format as singular of your created tables
+  Example: "create_products_table" (Migration Table) -> "Product"
+  use "php artisan make:model Product" 
+
+--BACKEND-- *Controllers*
+
+# Create Laravel Controller
+  Always use Controller suffix for creating controllers
+  Exmple: "ProductController"
+  use "php artisan make:controller ProductController"
